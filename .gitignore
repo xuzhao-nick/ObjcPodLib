@@ -5,6 +5,12 @@
 ## User settings
 xcuserdata/
 
+## Build generated
+build/
+archive/
+DerivedData/
+project.xcworkspace/
+
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
 *.xccheckout
@@ -40,6 +46,8 @@ DerivedData/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
+Pods/
+Podfile.lock
 
 # Carthage
 #
